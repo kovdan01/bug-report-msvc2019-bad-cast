@@ -2,6 +2,8 @@
 
 This repository contains all the info related to a bug that I've found in MSVC2019.
 
+**TLDR:** The bug presence is confirmed, current status: fixed, pending release. See [developer community page](https://developercommunity.visualstudio.com/t/Code-generation-bug-specific-for-Release/1467844).
+
 ## Brief description
 
 The code (see main.cpp in this repo) compiled with MSVC2019 produces `std::bad_cast` when it is not supposed to. I'm 99.9% sure that it is a compiler bug because:
